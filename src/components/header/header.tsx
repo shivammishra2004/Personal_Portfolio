@@ -41,14 +41,13 @@ const Header: React.FC = () => {
         </a>
         <a
           className="button"
-          href="https://github.com/tjklint/tjklint.github.io"
+          href="https://github.com/shivammishra2004"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => setIsOpen(false)}
         >
-          <FaStar />
-          {`or\u00A0`}
-          <FaCodeBranch />
+          <FaGithub/>
+          Github
         </a>
       </nav>
     </header>

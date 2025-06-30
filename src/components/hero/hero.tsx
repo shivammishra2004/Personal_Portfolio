@@ -155,12 +155,9 @@ const Hero: React.FC = () => {
 
   const typewriterTexts = [
     "Software Developer",
-    "Ex-SDE Intern @ Bell",
-    "Co-Chair @ CUSEC",
-    "Ethical Hacker",
+    "Competitive Programmer",
+    "UI/UX Designer",
     "AI Enthusiast",
-    "Coffee Drinker",
-    "Hackathon Fanatic"
   ]; // Array of texts for the typewriter effect
 
   useEffect(() => {
@@ -253,7 +250,7 @@ const Hero: React.FC = () => {
     <HeroContainer>
       <LeftContainer>
         <h1>{topLine}</h1> {/* Display random headline */}
-        <GradientText>I'm TJ Klint.</GradientText> {/* Display name with gradient effect */}
+        <GradientText>I'm Shivam Mishra.</GradientText> {/* Display name with gradient effect */}
         <TypewriterText>{currentText}</TypewriterText> {/* Display typewriter effect text */}
       </LeftContainer>
       <RightContainer ref={rightContainerRef}>

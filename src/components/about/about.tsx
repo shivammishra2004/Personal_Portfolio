@@ -2,14 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './about.scss';
 
 
-import tjklint1 from '../../assets/me/webp/tjklint1.webp';
 import tjklint2 from '../../assets/me/webp/tjklint2.webp';
 import tjklint3 from '../../assets/me/webp/tjklint3.webp';
 import tjklint4 from '../../assets/me/webp/tjklint4.webp';
 import tjklint5 from '../../assets/me/webp/tjklint5.webp';
 import tjklint6 from '../../assets/me/webp/tjklint6.webp';
-import tjklint7 from '../../assets/me/webp/tjklint7.webp';
-import tjklint8 from '../../assets/me/webp/tjklint8.webp';
 
 const photos = [tjklint2, tjklint3, tjklint4, tjklint5, tjklint6];
 

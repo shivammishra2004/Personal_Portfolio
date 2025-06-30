@@ -1,0 +1,24 @@
+.dino-game-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #fff;
+  font-family: 'RobotoMono', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  canvas {
+    border: 2px solid #555;
+    background-color: #f4f4f4;
+    display: block;
+  }
+}

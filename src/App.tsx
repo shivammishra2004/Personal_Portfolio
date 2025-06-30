@@ -20,6 +20,7 @@ import Footer from './components/footer/footer.tsx';
 import Techstack from './components/techstack/techstack.tsx';
 // @ts-ignore
 import ContributionMap from './components/contribution_map/contribution_map.tsx';
+import DinoGame from './DinoGame/DinoGame.js';
 
 const AppContainer = styled.div`
   background-color: #1e1e1e; /* Match the background color of the hero section */
@@ -46,8 +47,8 @@ const App: React.FC = () => {
           
           <Techstack />
           
-          <ContributionMap />
-          
+          {/* <ContributionMap /> */}
+          {/* <DinoGame /> */}
           <SocialLinks />
         </MainContent>
         <Footer />
