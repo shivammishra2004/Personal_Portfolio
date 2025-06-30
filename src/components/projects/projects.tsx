@@ -212,15 +212,14 @@ const Projects: React.FC = () => {
       <BigProjectsContainer>
         <ProjectContainer>
           <img src={investSmartGif} alt="Invest Smart Project" />
-          <h3>Capital Coach</h3>
-          <p>A financial management tool designed to empower individuals with smart 
-             financial planning, integrating simplicity with effectiveness.</p>
+          <h3>NPTEL Validator Portal</h3>
+          <p>A robust NPTEL validator trusted by 7,500+ users, streamlining certificate verification by eliminating manual validation—saving countless man-hours and enhancing security through comprehensive automated checks.</p>
           <div className="links">
-            <a href="https://github.com/tjklint/CapitalCoach" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/avlokan-nsut/nptelize" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
-            <a href="#" onClick={handleComingSoonClick}>
-              <FaGlobe /> Try it Out
+            <a href="https://avlokan.nsut.ac.in/" >
+              <FaGlobe />
             </a>
           </div>
         </ProjectContainer>
