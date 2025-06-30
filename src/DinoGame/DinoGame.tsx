@@ -13,7 +13,7 @@ const DinoGame: React.FC = () => {
     if (isMobile) return null; // ⛔ Don't render on mobile
 
     return (
-        <div style={{ width: "100%", height: "40vh", textAlign: "center" }}>
+        <div style={{ width: "100%", height: "50vh", textAlign: "center" }}>
             <h2
                 style={{
                     marginTop: "2rem",
