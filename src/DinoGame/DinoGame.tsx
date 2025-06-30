@@ -10,6 +10,8 @@ const DinoGame: React.FC = () => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    if (isMobile) return null; // ⛔ Don't render on mobile
+
     return (
         <div style={{ width: "100%", height: "40vh", textAlign: "center" }}>
             <h2
@@ -38,11 +40,11 @@ const DinoGame: React.FC = () => {
                     loading="lazy"
                     style={{
                         position: "absolute",
-                        top: isMobile ? "-150px" : "-100px",
+                        top: "-100px",
                         left: "50%",
-                        transform: `translateX(-50%) scale(${isMobile ? 1.1 : 1.3})`,
-                        width: isMobile ? "70%" : "60%",
-                        height: isMobile ? "36vh" : "36vh",
+                        transform: "translateX(-50%) scale(1.3)",
+                        width: "60%",
+                        height: "36vh",
                         border: "none",
                         zIndex: 999,
                     }}
