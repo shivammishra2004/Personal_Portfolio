@@ -119,7 +119,7 @@ const About: React.FC = () => {
                     </p>
                 </div>
                 <div className="about-photo">
-                    <img src={photo} alt="TJ Klint" />
+                    <img src={photo} alt="Shivam" />
                 </div>
             </section>
         </div>

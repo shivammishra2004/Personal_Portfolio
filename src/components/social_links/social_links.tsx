@@ -72,14 +72,14 @@ const SocialLinks: React.FC = () => {
             <SocialIcons>
                 {/* Social media links with icons */}
                 <a
-                    href="https://github.com/tjklint"
+                    href="https://github.com/shivammishra2004"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <FaGithub />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/timothy-klint"
+                    href="https://www.linkedin.com/in/shivam-mishra-67671a17a/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

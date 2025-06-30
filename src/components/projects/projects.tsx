@@ -3,10 +3,11 @@ import styled from 'styled-components';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 // Importing assets for project GIFs
-import investSmartGif from '../../assets/projects/InvestSmart.gif';
+import investSmartGif from '../../assets/projects/NptelValidator.gif';
 import pokePCGif from '../../assets/projects/PokePC.gif';
 import privacyXPressoGif from '../../assets/projects/PrivacyXPresso.gif';
 import portfolioGif from '../../assets/projects/Portfolio.gif'; 
+import indieType from '../../assets/projects/IndieType.gif';
 
 // Main container for all projects, handles layout and styling
 const ProjectsContainer = styled.div`
@@ -224,13 +225,13 @@ const Projects: React.FC = () => {
           </div>
         </ProjectContainer>
         <ProjectContainer>
-          <img src={pokePCGif} alt="PokePC Project" />
-          <h3>PokePC</h3>
-          <p>PokePC is a Pokedex & a user-friendly web app for managing and organizing Pokemon collections, 
-             creating battle teams, and tracking Pokemon details, designed for enthusiasts at all levels.</p>
+          <img src={pokePCGif} alt="nextContest" />
+          <h3>nextContest - CP Contest Tracker</h3>
+          <p>nextContest is a customizable CP calendar & user-friendly extension for tracking upcoming contests from Codeforces, LeetCode, AtCoder, and more — with reminders and a clean, minimal interface.</p>
           <div className="links">
-            <a href="https://github.com/tjklint/PokePC" target="_blank" rel="noopener noreferrer">
-              <FaGithub /> See on GitHub
+            <a href="https://github.com/notixdevs/nextContest" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://chromewebstore.google.com/detail/nextcontest-contest-track/iaegknohokdglkofffajgjogikgobban" >
+              <FaGlobe />
             </a>
           </div>
         </ProjectContainer>
@@ -238,14 +239,14 @@ const Projects: React.FC = () => {
 
       <SmallProjectsContainer>
         <SmallProject>
-          <img src={privacyXPressoGif} alt="PrivacyXPresso Project" />
-          <h3>PrivacyXPresso</h3>
+          <img src={indieType} alt="IndieType" />
+          <h3>IndieType - Indian Typing Practice App</h3>
           <p>PrivacyXPresso simplifies data deletion from big companies, enhancing online security with easy-to-use local tools.</p>
           <div className="links">
-            <a href="https://github.com/tjklint/BellGeekfest2023" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/notixdevs/IndieType" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
-            <a href="#" onClick={handleComingSoonClick}>
+            <a href="https://indietype.netlify.app" target="_blank" rel="noopener noreferrer">
               <FaGlobe /> Try it Out
             </a>
           </div>
@@ -255,23 +256,11 @@ const Projects: React.FC = () => {
           <h3>Portfolio</h3>
           <p>Built in React, this portfolio website is built to last and showcase my best work and skills. Thanks for checking it out!</p>
           <div className="links">
-            <a href="https://github.com/tjklint/tjklint.github.io" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/shivammishra2004/Personal_Portfolio" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
-            <a href="https://tjklint.github.io" onClick={handleComingSoonClick}>
+            <a href="https://shivammishra04.netlify.app/" target='_blank' rel="noopener noreferrer">
               <FaGlobe /> You're already here!
-            </a>
-          </div>
-        </SmallProject>
-        <SmallProject>
-          <h3>More Projects Coming Soon...</h3>
-          <p>Stay tuned!</p>
-          <div className="links">
-            <a href="https://github.com/tjklint" target="_blank" rel="noopener noreferrer">
-              <FaGithub /> See on GitHub
-            </a>
-            <a href="https://tjklint.com" target="_blank" rel="noopener noreferrer">
-              <FaGlobe /> Try it Out
             </a>
           </div>
         </SmallProject>
