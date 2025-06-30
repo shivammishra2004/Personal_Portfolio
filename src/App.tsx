@@ -46,9 +46,7 @@ const App: React.FC = () => {
           <Projects />
           
           <Techstack />
-          
-          {/* <ContributionMap /> */}
-          {/* <DinoGame /> */}
+          <DinoGame />
           <SocialLinks />
         </MainContent>
         <Footer />
