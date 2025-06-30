@@ -1,8 +1,8 @@
 {
-  "name": "tjklint-portfolio",
+  "name": "shivam-mishra-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tjklint.github.io",
+  "homepage": "https://shivammishra04.netlify.app/",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",

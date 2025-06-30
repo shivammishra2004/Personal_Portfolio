@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/tjklint/tjklint.github.io/blob/main/src/assets/portfoliodemo.gif" alt="Portfolio Demo">
+  <img src="https://github.com/shivammishra2004/Personal_Portfolio/blob/main/src/assets/portfoliodemo.gif" alt="Portfolio Demo">
 </div>
 
 <h3 align="center">
@@ -97,10 +97,8 @@ Prerequisites:
   
 ```
 # Clone the repository
-git clone https://github.com/tjklint/tjklint.github.io.git
+git clone https://github.com/shivammishra2004/Personal_Portfolio.git
 
-# Navigate to the project directory
-cd tjklint.github.io
 
 # Install dependencies
 npm i

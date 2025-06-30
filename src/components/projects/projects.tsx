@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 // Importing assets for project GIFs
-import investSmartGif from '../../assets/projects/NptelValidator.gif';
-import pokePCGif from '../../assets/projects/PokePC.gif';
-import privacyXPressoGif from '../../assets/projects/PrivacyXPresso.gif';
+// import nptelValidator from '../../assets/projects/NptelValidator2.gif';
+import nptelValidator from '../../assets/projects/NptelValidator2.png';
+import nextContest from '../../assets/projects/nextContest.png';
 import portfolioGif from '../../assets/projects/Portfolio.gif'; 
 import indieType from '../../assets/projects/IndieType.gif';
 
@@ -212,7 +212,7 @@ const Projects: React.FC = () => {
       <SectionTitle>Projects</SectionTitle>
       <BigProjectsContainer>
         <ProjectContainer>
-          <img src={investSmartGif} alt="Invest Smart Project" />
+          <img src={nptelValidator} alt="Invest Smart Project" />
           <h3>NPTEL Validator Portal</h3>
           <p>A robust NPTEL validator trusted by 7,500+ users, streamlining certificate verification by eliminating manual validation—saving countless man-hours and enhancing security through comprehensive automated checks.</p>
           <div className="links">
@@ -225,11 +225,13 @@ const Projects: React.FC = () => {
           </div>
         </ProjectContainer>
         <ProjectContainer>
-          <img src={pokePCGif} alt="nextContest" />
+          <img src={nextContest} alt="nextContest" />
           <h3>nextContest - CP Contest Tracker</h3>
           <p>nextContest is a customizable CP calendar & user-friendly extension for tracking upcoming contests from Codeforces, LeetCode, AtCoder, and more — with reminders and a clean, minimal interface.</p>
           <div className="links">
-            <a href="https://github.com/notixdevs/nextContest" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://github.com/notixdevs/nextContest" target="_blank" rel="noopener noreferrer">
+                          <FaGithub /> See on GitHub
+                          </a>
             <a href="https://chromewebstore.google.com/detail/nextcontest-contest-track/iaegknohokdglkofffajgjogikgobban" >
               <FaGlobe />
             </a>

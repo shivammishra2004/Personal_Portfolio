@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./about.scss";
 
-import tjklint6 from "../../assets/me/webp/shivam1.jpg";
+import shivam1 from "../../assets/me/webp/shivam1.jpg";
 
-const photos = [tjklint6];
+const photos = [shivam1];
 
 const About: React.FC = () => {
     const [photo, setPhoto] = useState("");
