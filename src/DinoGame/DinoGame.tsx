@@ -1,16 +1,38 @@
 import React, { useEffect, useState } from "react";
 
 const DinoGame: React.FC = () => {
-    const [isMobile, setIsMobile] = useState(false);
+    const [viewport, setViewport] = useState({
+        isMobile: false,
+        isNarrow: false,
+    });
 
     useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth < 768);
+        const handleResize = () => {
+            setViewport({
+                isMobile: window.innerWidth < 768,
+                isNarrow: window.innerWidth < 1280,
+            });
+        };
+
         handleResize();
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    if (isMobile) return null; // ⛔ Don't render on mobile
+    if (viewport.isMobile) return null;
+
+    const iframeStyle = {
+        position: "absolute" as const,
+        top: "-100px",
+        left: "50%",
+        transform: viewport.isNarrow
+            ? "translateX(-55%) scale(1.1)"
+            : "translateX(-50%) scale(1.3)",
+        width: viewport.isNarrow ? "70%" : "60%",
+        height: "36vh",
+        border: "none",
+        zIndex: 999,
+    };
 
     return (
         <div style={{ width: "100%", height: "50vh", textAlign: "center" }}>
@@ -38,16 +60,7 @@ const DinoGame: React.FC = () => {
                     frameBorder="0"
                     scrolling="no"
                     loading="lazy"
-                    style={{
-                        position: "absolute",
-                        top: "-100px",
-                        left: "50%",
-                        transform: "translateX(-50%) scale(1.3)",
-                        width: "60%",
-                        height: "36vh",
-                        border: "none",
-                        zIndex: 999,
-                    }}
+                    style={iframeStyle}
                 />
             </div>
         </div>

@@ -1,44 +1,42 @@
 {
-    "sections": [
-      {
-        "title": "Education",
-        "entries": [
-          {
-            "title": "Computer Science",
-            "company": "@John Abbott College",
-            "dates": "August 2022 - May 2025"
-          }
-        ]
-      },
-      {
-        "title": "Experience",
-        "entries": [
-          {
-            "title": "Software Developer",
-            "company": "@CSE (Communications Security Establishment)",
-            "dates": "January 2024 - April 2024"
-          },
-          {
-            "title": "Software Developer",
-            "company": "@Bell",
-            "dates": "May 2024 - August 2024",
-            "bulletPoints": [
-              "Developed a web app to streamline internal ticket creation using the Jira API.",
-              "Utilized the MEVN stack (MongoDB, Express, Vue.js, Node.js) for development.",
-              "Enhanced efficiency of internal processes at Bell through automation."
-            ]
-          },
-          {
-            "title": "Co-Chair",
-            "company": "@CUSEC (Canadian University Software Engineering Conference)",
-            "dates": "January 2024 - Present",
-            "bulletPoints": [
-              "Overseeing operations for a 15+ team of student organizers including scheduling, sponsorships and logistics, to ensure a high-quality conference for 250 attendees from 17 schools across 6 provinces.",
-              "Guiding organizers in developing conference vision, resolving logistic conflicts, and coordinating details with speakers, sponsors, and hotel venue.",
-              "Handled recruiting through social media and interviewing more than 90+ applicants."
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "sections": [
+    {
+      "title": "Experience",
+      "entries": [
+        {
+          "title": "Frontend Developer Intern",
+          "company": "@NSUT",
+          "dates": "May 2025 – July 2025",
+          "bulletPoints": [
+            "Built the MOOC Validator Portal, a certificate verification tool used by 7,500+ students.",
+            "Developed modular frontend using TypeScript and DaisyUI; integrated FastAPI/Django with TanStack Query.",
+            "Wrote 4,000+ lines of code across 20+ commits; involved in daily stand-ups and sprint planning.",
+            "Optimized platform that handled 10,000+ submissions and 30,000+ views."
+
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "entries": [
+        {
+          "title": "B.Tech in Computer Science and Engineering",
+          "company": "@Netaji Subhas University of Technology (NSUT), Delhi, India",
+          "dates": "2023 – Present",
+          "bulletPoints": [
+            "CGPA: 8.51"
+          ]
+        },
+        {
+          "title": "Class 12",
+          "company": "@Dev Samaj Public School, Delhi, India",
+          "dates": "2020 – 2022",
+          "bulletPoints": [
+            "Percentage: 93.2%"
+          ]
+        }
+      ]
+    }
+  ]
+}
